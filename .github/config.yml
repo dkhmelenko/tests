@@ -1,7 +1,7 @@
 _extends: github-settings
 
 from_owner: 
-  - dkhmelenko
+  - dkhmelenko2
 
 required_labels: 
   - ready
