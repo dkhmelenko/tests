@@ -4,3 +4,6 @@ from_owner:
   - dkhmelenko
 
 required_labels: []
+
+apply_labels:
+  - merge
