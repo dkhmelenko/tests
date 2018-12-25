@@ -5,4 +5,5 @@ from_owner:
 
 required_labels: []
 
-apply_labels: []
+apply_labels:
+  - merge
