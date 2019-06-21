@@ -3,7 +3,7 @@ _extends: github-settings
 from_owner: 
   - dkhmelenko
 
-required_labels:
-  - merge
+required_labels: []
 
-apply_labels: []
+apply_labels:
+  - merge
