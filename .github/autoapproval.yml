@@ -8,3 +8,7 @@ required_labels:
 
 apply_labels:
   - merge
+
+blacklisted_labels:
+  - wip
+  
