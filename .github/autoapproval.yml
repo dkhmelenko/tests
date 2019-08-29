@@ -9,5 +9,5 @@ apply_labels:
   - merge
 
 blacklisted_labels:
-  - wip
+  - release_merge
   
