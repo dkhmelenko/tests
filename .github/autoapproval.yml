@@ -8,7 +8,4 @@ required_labels:
 
 apply_labels:
   - merge
-
-blacklisted_labels:
-  - release_merge
   
