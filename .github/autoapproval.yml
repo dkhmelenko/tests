@@ -9,3 +9,6 @@ required_labels:
 apply_labels:
   - merge
   
+auto_merge_labels:
+  - merge
+  
