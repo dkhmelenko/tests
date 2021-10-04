@@ -4,11 +4,6 @@ from_owner:
   - dkhmelenko
 
 required_labels:
-  - bug
+  - dkhmelenko
 
-apply_labels:
-  - merge
-  
-auto_merge_labels:
-  - automerge
-  
+apply_labels: []
