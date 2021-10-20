@@ -7,3 +7,6 @@ required_labels:
   - dkhmelenko
 
 apply_labels: []
+
+auto_merge_labels:
+  - dkhmelenko
