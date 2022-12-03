@@ -1,5 +1,7 @@
-on: [push]
-
+on:
+  pull_request:
+    types: [opened, reopened]
+    
 permissions:
   contents: read
   pull-requests: write
@@ -8,12 +10,10 @@ permissions:
   statuses: write
   
 jobs:
-  hello_world_job:
+  autoapproval:
     runs-on: ubuntu-latest
-    name: A job to approve PRs
+    name: Autoapproval
     steps:
-      - name: Autoapproval
-        id: autapproval
-        uses: dkhmelenko/autoapproval@v1.0
+      - uses: dkhmelenko/autoapproval@v1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
