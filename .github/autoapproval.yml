@@ -6,7 +6,8 @@ from_owner:
 required_labels:
   - bugs
 
-apply_labels: []
+apply_labels:
+  - automerge
 
 auto_merge_labels:
   - dkhmelenko
