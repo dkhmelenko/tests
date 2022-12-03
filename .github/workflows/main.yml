@@ -8,5 +8,5 @@ jobs:
       - name: Autoapproval
         id: autapproval
         uses: dkhmelenko/autoapproval@v1.0
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
