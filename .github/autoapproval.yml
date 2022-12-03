@@ -4,7 +4,7 @@ from_owner:
   - dkhmelenko
 
 required_labels:
-  - dkhmelenko
+  - bugs
 
 apply_labels: []
 
