@@ -8,5 +8,3 @@ jobs:
       - name: Autoapproval
         id: autapproval
         uses: dkhmelenko/autoapproval@v1.0
-        with:
-          who-to-greet: 'Mona the Octocat'
