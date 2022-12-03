@@ -3,13 +3,6 @@ on:
     types: [opened, reopened, labeled, edited]
   pull_request_review:
     types: [dismissed]
-    
-permissions:
-  contents: read
-  pull-requests: write
-  issues: write
-  actions: write
-  statuses: write
   
 jobs:
   autoapproval:
